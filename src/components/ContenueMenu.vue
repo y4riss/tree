@@ -9,23 +9,19 @@
          <b-icon   icon="dash-lg"  v-else-if="varia"></b-icon> 
        </div>
        
-       <div v-if="!hasChild" >
-         <b-icon  icon="diamond-fill"  ></b-icon>
-       </div>
+  
 
 <div >{{ nom }}</div>     
      
      </div>
          <div class="child">
             <div  v-if="varia"  >
-              <ContenuMenu
-               class="children"
-             v-for="(item,index) in data"
-               :key="index"
-               :nom="item.nom"
-               :depth="depth + 1"
-               :data="item.fils"
-              />
+            <ul>
+              <li class="children" v-for="(item,index) in data" :key="index" >
+                   
+                    <b-icon :icon="item.icon"></b-icon>&nbsp;&nbsp;{{item.nom}}
+              </li>
+            </ul>
        </div>
      </div>
     </div>
@@ -59,10 +55,6 @@ export default {
      data:{
         type: Array,
         required:true
-     },
-     fils:{
-      type: Array,
-      required:true
      }
   },
   methods:{
@@ -79,6 +71,10 @@ export default {
 </script>
 
 <style scoped>
+li{
+  list-style: none;
+  padding : .5em;
+}
 .children {
  margin-left: 10px;
 

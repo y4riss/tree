@@ -30,21 +30,28 @@ export default {
                    fils: [
                     {
                         nom:'fils 1'
+                        ,icon : "trash",
                     },
                     {
                         nom:'fils 2'
+                        ,icon : "clock",
+                        
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     }
                 ]
             },
@@ -53,21 +60,27 @@ export default {
                    fils: [
                     {
                         nom:'fils 1'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 2'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     }
                 ]
             },
@@ -76,21 +89,27 @@ export default {
                    fils: [
                     {
                         nom:'fils 1'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 2'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     }
                 ]
             },
@@ -99,21 +118,27 @@ export default {
                    fils: [
                     {
                         nom:'fils 1'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 2'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     }
                 ]
             },
@@ -122,21 +147,27 @@ export default {
                    fils: [
                     {
                         nom:'fils 1'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 2'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     },
                     {
                         nom:'fils 3'
+                          ,icon : "diamond-fill",
                     }
                 ]
             }
